@@ -3,4 +3,8 @@
   target: "/courants/"
   kind: page
   children: []
+- title: Auteur.e.s
+  target: "/auteures/"
+  kind: page
+  children: []
 
