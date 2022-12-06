@@ -1,14 +1,14 @@
 ---
 - title: Courants
-  target: "/courants/"
+  target: "/fr/courants/"
   kind: page
   children: []
 - title: Auteur.e.s
-  target: "/auteures/"
+  target: "/fr/auteures/"
   kind: page
   children: []
 - title: Ouvrages
-  target: "/ouvrages/"
+  target: "/fr/ouvrages/"
   kind: page
   children: []
 
