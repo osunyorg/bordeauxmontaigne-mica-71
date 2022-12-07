@@ -11,4 +11,8 @@
   target: "/fr/ouvrages/"
   kind: page
   children: []
+- title: Les SIC
+  target: "/fr/les-sic/"
+  kind: page
+  children: []
 
