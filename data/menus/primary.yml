@@ -19,4 +19,8 @@
   target: "/fr/courants-associes/"
   kind: page
   children: []
+- title: Revues
+  target: "/fr/revues/"
+  kind: page
+  children: []
 
