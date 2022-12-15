@@ -15,4 +15,8 @@
   target: "/fr/ouvrages/"
   kind: page
   children: []
+- title: Courants associés
+  target: "/fr/courants-associes/"
+  kind: page
+  children: []
 
