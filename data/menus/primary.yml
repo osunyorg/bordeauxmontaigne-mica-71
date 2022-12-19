@@ -1,26 +1,26 @@
 ---
 - title: Les SIC
-  target: "/fr/les-sic/"
+  target: "/les-sic/"
   kind: page
   children: []
 - title: Courants
-  target: "/fr/courants/"
+  target: "/courants/"
   kind: page
   children: []
 - title: Auteur.e.s
-  target: "/fr/auteures/"
+  target: "/auteures/"
   kind: page
   children: []
 - title: Ouvrages
-  target: "/fr/ouvrages/"
+  target: "/ouvrages/"
   kind: page
   children: []
 - title: Courants associés
-  target: "/fr/courants-associes/"
+  target: "/courants-associes/"
   kind: page
   children: []
 - title: Revues
-  target: "/fr/revues/"
+  target: "/revues/"
   kind: page
   children: []
 
