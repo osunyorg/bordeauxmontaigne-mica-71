@@ -15,7 +15,7 @@
   target: "/ouvrages/"
   kind: page
   children: []
-- title: Courants associés
+- title: Disciplines
   target: "/disciplines/"
   kind: page
   children: []
