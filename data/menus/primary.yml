@@ -19,8 +19,4 @@
   target: "/courants/nouveaux-courants/"
   kind: page
   children: []
-- title: Revues
-  target: "/revues/"
-  kind: page
-  children: []
 
