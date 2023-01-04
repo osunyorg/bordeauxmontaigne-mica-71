@@ -19,4 +19,8 @@
   target: "/sic/"
   kind: page
   children: []
+- title: Projet
+  target: "/projet/"
+  kind: page
+  children: []
 
