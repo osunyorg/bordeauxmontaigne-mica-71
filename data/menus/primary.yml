@@ -11,12 +11,12 @@
   target: "/bibliographie/"
   kind: page
   children: []
-- title: SIC
-  target: "/sic/"
-  kind: page
-  children: []
 - title: Manifestations
   target: "/manifestations/"
+  kind: page
+  children: []
+- title: SIC
+  target: "/sic/"
   kind: page
   children: []
 
