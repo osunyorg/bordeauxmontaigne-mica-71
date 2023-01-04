@@ -15,8 +15,8 @@
   target: "/sic/"
   kind: page
   children: []
-- title: Disciplines
-  target: "/courants/nouveaux-courants/"
+- title: Manifestations
+  target: "/manifestations/"
   kind: page
   children: []
 
