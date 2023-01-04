@@ -2,7 +2,11 @@
 - title: Courants
   target: "/courants/"
   kind: page
-  children: []
+  children:
+  - title: Courants fondateurs
+    target: "/courants/courants-fondateurs/"
+    kind: page
+    children: []
 - title: Auteur.e.s
   target: "/auteures/"
   kind: page
