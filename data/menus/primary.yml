@@ -22,7 +22,11 @@
 - title: Manifestations
   target: "/manifestations/"
   kind: page
-  children: []
+  children:
+  - title: Conférences
+    target: "/manifestations/conferences/"
+    kind: page
+    children: []
 - title: SIC
   target: "/sic/"
   kind: page
