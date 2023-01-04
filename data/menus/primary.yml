@@ -16,7 +16,7 @@
   kind: page
   children: []
 - title: Disciplines
-  target: "/disciplines/"
+  target: "/courants/disciplines/"
   kind: page
   children: []
 - title: Revues
