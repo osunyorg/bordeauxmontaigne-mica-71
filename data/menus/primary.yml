@@ -7,6 +7,10 @@
     target: "/courants/courants-fondateurs/"
     kind: page
     children: []
+  - title: Nouveaux courants
+    target: "/courants/nouveaux-courants/"
+    kind: page
+    children: []
 - title: Auteur.e.s
   target: "/auteures/"
   kind: page
