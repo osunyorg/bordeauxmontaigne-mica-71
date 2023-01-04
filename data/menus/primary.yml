@@ -1,8 +1,4 @@
 ---
-- title: Les SIC
-  target: "/les-sic/"
-  kind: page
-  children: []
 - title: Courants
   target: "/courants/"
   kind: page
@@ -13,6 +9,10 @@
   children: []
 - title: Bibliographie
   target: "/bibliographie/"
+  kind: page
+  children: []
+- title: Les SIC
+  target: "/les-sic/"
   kind: page
   children: []
 - title: Disciplines
