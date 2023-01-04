@@ -18,7 +18,11 @@
 - title: Bibliographie
   target: "/bibliographie/"
   kind: page
-  children: []
+  children:
+  - title: Livres
+    target: "/bibliographie/livres/"
+    kind: page
+    children: []
 - title: Manifestations
   target: "/manifestations/"
   kind: page
