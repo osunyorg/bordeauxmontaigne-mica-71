@@ -27,6 +27,10 @@
     target: "/manifestations/conferences/"
     kind: page
     children: []
+  - title: Revues
+    target: "/manifestations/revues-1/"
+    kind: page
+    children: []
 - title: SIC
   target: "/sic/"
   kind: page
