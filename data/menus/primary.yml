@@ -23,6 +23,10 @@
     target: "/bibliographie/livres/"
     kind: page
     children: []
+  - title: Publications
+    target: "/bibliographie/publications/"
+    kind: page
+    children: []
 - title: Manifestations
   target: "/manifestations/"
   kind: page
