@@ -12,7 +12,7 @@
   kind: page
   children: []
 - title: Les SIC
-  target: "/les-sic/"
+  target: "/sic/"
   kind: page
   children: []
 - title: Disciplines
