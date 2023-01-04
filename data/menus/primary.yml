@@ -11,7 +11,7 @@
   target: "/auteures/"
   kind: page
   children: []
-- title: Ouvrages
+- title: Bibliographie
   target: "/bibliographie/"
   kind: page
   children: []
