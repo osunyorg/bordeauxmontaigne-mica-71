@@ -51,4 +51,8 @@
   target: "/contribuer/"
   kind: page
   children: []
+- title: Bibliographie
+  target: "/"
+  kind: blank
+  children: []
 
