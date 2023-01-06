@@ -1,16 +1,20 @@
 ---
-- title: Courants
-  target: "/courants/"
-  kind: page
+- title: Bibliographie
+  target: "/"
+  kind: blank
   children:
-  - title: Courants fondateurs
-    target: "/courants/courants-fondateurs/"
+  - title: Courants
+    target: "/courants/"
     kind: page
-    children: []
-  - title: Nouveaux courants
-    target: "/courants/nouveaux-courants/"
-    kind: page
-    children: []
+    children:
+    - title: Courants fondateurs
+      target: "/courants/courants-fondateurs/"
+      kind: page
+      children: []
+    - title: Nouveaux courants
+      target: "/courants/nouveaux-courants/"
+      kind: page
+      children: []
 - title: Auteur.e.s
   target: "/auteures/"
   kind: page
@@ -50,9 +54,5 @@
 - title: Contribuer
   target: "/contribuer/"
   kind: page
-  children: []
-- title: Bibliographie
-  target: "/"
-  kind: blank
   children: []
 
