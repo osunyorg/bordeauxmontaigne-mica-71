@@ -11,4 +11,18 @@
 .block-pages--grid article .media img
     @include in-page-with-sidebar
         max-width: 250px
-    
+
+header#document-header
+    .menu
+        .nav-level-1
+            > li:last-of-type
+                a
+                    color: $color-background
+                    background: $color-accent
+                    padding: calc(0.75rem * 0.5) 0.75rem
+                    &:hover
+                        text-decoration-color: white
+                @include media-breakpoint-down(desktop)
+                    margin-top: $spacing1
+                    margin-bottom: $spacing1
+                    text-align: center
