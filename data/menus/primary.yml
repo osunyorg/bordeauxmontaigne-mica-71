@@ -39,10 +39,10 @@
       target: "/manifestations/revues-1/"
       kind: page
       children: []
-- title: Auteur.e.s
-  target: "/auteures/"
-  kind: page
-  children: []
+  - title: Auteur.e.s
+    target: "/auteures/"
+    kind: page
+    children: []
 - title: SIC
   target: "/sic/"
   kind: page
