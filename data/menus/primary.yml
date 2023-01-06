@@ -43,7 +43,7 @@
     target: "/auteures/"
     kind: page
     children: []
-- title: SIC
+- title: Les SIC ?
   target: "/sic/"
   kind: page
   children: []
