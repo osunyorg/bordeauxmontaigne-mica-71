@@ -15,22 +15,22 @@
       target: "/courants/nouveaux-courants/"
       kind: page
       children: []
+  - title: Bibliographie
+    target: "/bibliographie/"
+    kind: page
+    children:
+    - title: Livres
+      target: "/bibliographie/livres/"
+      kind: page
+      children: []
+    - title: Publications
+      target: "/bibliographie/publications/"
+      kind: page
+      children: []
 - title: Auteur.e.s
   target: "/auteures/"
   kind: page
   children: []
-- title: Bibliographie
-  target: "/bibliographie/"
-  kind: page
-  children:
-  - title: Livres
-    target: "/bibliographie/livres/"
-    kind: page
-    children: []
-  - title: Publications
-    target: "/bibliographie/publications/"
-    kind: page
-    children: []
 - title: Manifestations
   target: "/manifestations/"
   kind: page
