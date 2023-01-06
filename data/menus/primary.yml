@@ -15,7 +15,7 @@
       target: "/courants/nouveaux-courants/"
       kind: page
       children: []
-  - title: Bibliographie
+  - title: Corpus
     target: "/corpus/"
     kind: page
     children:
