@@ -47,7 +47,7 @@
   target: "/sic/"
   kind: page
   children: []
-- title: Le Projet
+- title: Projet
   target: "/projet/"
   kind: page
   children: []
