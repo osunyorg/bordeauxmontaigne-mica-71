@@ -1,6 +1,6 @@
 ---
 - title: Bibliographie
-  target: "/"
+  target: ''
   kind: blank
   children:
   - title: Courants
