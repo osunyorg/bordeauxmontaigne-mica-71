@@ -14,7 +14,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 4
@@ -42,10 +42,15 @@ header_text: >-
 legacy_text: >
   
 contents:
+  - kind: heading
+    title: >-
+      Résumé
+    position: 0
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Résumé
+      
     position: 1
     data:
       layout: no_background
@@ -69,10 +74,16 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Notions clés
+    position: 1
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Notions clés
+      
     position: 2
     data:
       layout: no_background
@@ -99,21 +110,6 @@ contents:
   - kind: block
     template: pages
     title: >
-      Ouvrages du même auteur
-    position: 3
-    data:
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
-        - page: /corpus/livres/laventure-semiologique-roland-barthes/
-          slug: /corpus/livres/laventure-semiologique-roland-barthes/
-
-
-  - kind: block
-    template: pages
-    title: >
       
     position: 4
     data:
@@ -126,10 +122,32 @@ contents:
           slug: /auteures/roland-barthes/
 
 
+
+  - kind: heading
+    title: >-
+      Ouvrages du même auteur
+    position: 2
+    level: 2
+  - kind: block
+    template: pages
+    title: >
+      
+    position: 3
+    data:
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+        - page: /corpus/livres/laventure-semiologique-roland-barthes/
+          slug: /corpus/livres/laventure-semiologique-roland-barthes/
+
+
+
 blocks:
   - template: chapter
     title: >-
-      Résumé
+      
     position: 1
     data:
       layout: no_background
@@ -153,7 +171,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Notions clés
+      
     position: 2
     data:
       layout: no_background
@@ -177,7 +195,7 @@ blocks:
 
   - template: pages
     title: >-
-      Ouvrages du même auteur
+      
     position: 3
     data:
       show_main_description: false
