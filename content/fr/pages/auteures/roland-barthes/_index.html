@@ -11,7 +11,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 2
@@ -39,10 +39,36 @@ header_text: >-
 legacy_text: >
   
 contents:
+  - kind: heading
+    title: >-
+      Courants
+    position: 0
+    level: 2
+  - kind: block
+    template: pages
+    title: >
+      
+    position: 6
+    data:
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      layout: cards
+      pages:
+        - page: /courants/courants-fondateurs/semiologie-structurale/
+          slug: /courants/courants-fondateurs/semiologie-structurale/
+
+
+
+  - kind: heading
+    title: >-
+      Citation
+    position: 1
+    level: 2
   - kind: block
     template: testimonials
     title: >
-      Citation
+      
     position: 1
     data:
       testimonials:
@@ -62,31 +88,16 @@ contents:
 
 
 
-  - kind: block
-    template: datatable
-    title: >
-      Discipline
+
+  - kind: heading
+    title: >-
+      Champs de recherche
     position: 2
-    data:
-      description: >-
-        
-
-
-
-      columns: ["Sémiologie"]
-
-
-      rows:
-      caption: >-
-        
-
-
-
-
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Champs de recherche
+      
     position: 3
     data:
       layout: no_background
@@ -110,10 +121,66 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Discipline
+    position: 3
+    level: 2
+  - kind: block
+    template: datatable
+    title: >
+      
+    position: 2
+    data:
+      description: >-
+        
+
+
+
+      columns: ["Sémiologie"]
+
+
+      rows:
+      caption: >-
+        
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Livres
+    position: 4
+    level: 2
+  - kind: block
+    template: pages
+    title: >
+      
+    position: 7
+    data:
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      layout: grid
+      pages:
+        - page: /corpus/livres/laventure-semiologique-roland-barthes/
+          slug: /corpus/livres/laventure-semiologique-roland-barthes/
+        - page: /corpus/livres/mythologies-roland-barthes/
+          slug: /corpus/livres/mythologies-roland-barthes/
+
+
+
+  - kind: heading
+    title: >-
+      Concepts clés
+    position: 5
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Concepts clés
+      
     position: 4
     data:
       layout: no_background
@@ -137,10 +204,16 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Biographie
+    position: 6
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Biographie
+      
     position: 5
     data:
       layout: no_background
@@ -164,42 +237,11 @@ contents:
 
 
 
-  - kind: block
-    template: pages
-    title: >
-      Courants
-    position: 6
-    data:
-      show_main_description: false
-      show_descriptions: true
-      show_images: true
-      layout: cards
-      pages:
-        - page: /courants/courants-fondateurs/semiologie-structurale/
-          slug: /courants/courants-fondateurs/semiologie-structurale/
-
-
-  - kind: block
-    template: pages
-    title: >
-      Livres
-    position: 7
-    data:
-      show_main_description: false
-      show_descriptions: true
-      show_images: true
-      layout: grid
-      pages:
-        - page: /corpus/livres/laventure-semiologique-roland-barthes/
-          slug: /corpus/livres/laventure-semiologique-roland-barthes/
-        - page: /corpus/livres/mythologies-roland-barthes/
-          slug: /corpus/livres/mythologies-roland-barthes/
-
 
 blocks:
   - template: testimonials
     title: >-
-      Citation
+      
     position: 1
     data:
       testimonials:
@@ -219,7 +261,7 @@ blocks:
 
   - template: datatable
     title: >-
-      Discipline
+      
     position: 2
     data:
       description: >-
@@ -237,7 +279,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Champs de recherche
+      
     position: 3
     data:
       layout: no_background
@@ -261,7 +303,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Concepts clés
+      
     position: 4
     data:
       layout: no_background
@@ -285,7 +327,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Biographie
+      
     position: 5
     data:
       layout: no_background
@@ -309,7 +351,7 @@ blocks:
 
   - template: pages
     title: >-
-      Courants
+      
     position: 6
     data:
       show_main_description: false
@@ -321,7 +363,7 @@ blocks:
           slug: /courants/courants-fondateurs/semiologie-structurale/
   - template: pages
     title: >-
-      Livres
+      
     position: 7
     data:
       show_main_description: false
