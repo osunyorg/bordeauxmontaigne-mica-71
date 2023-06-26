@@ -13,7 +13,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 7
@@ -41,10 +41,36 @@ header_text: >-
 legacy_text: >
   
 contents:
+  - kind: heading
+    title: >-
+      Auteur.e.s
+    position: 0
+    level: 2
+  - kind: block
+    template: pages
+    title: >
+      
+    position: 5
+    data:
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      layout: cards
+      pages:
+        - page: /auteures/roland-barthes/
+          slug: /auteures/roland-barthes/
+
+
+
+  - kind: heading
+    title: >-
+      Concept
+    position: 1
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Concept
+      
     position: 1
     data:
       layout: no_background
@@ -68,10 +94,16 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Théorie
+    position: 2
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Théorie
+      
     position: 2
     data:
       layout: no_background
@@ -95,10 +127,16 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Discours
+    position: 3
+    level: 2
   - kind: block
     template: chapter
     title: >
-      Discours
+      
     position: 3
     data:
       layout: no_background
@@ -122,25 +160,11 @@ contents:
 
 
 
-  - kind: block
-    template: pages
-    title: >
-      Auteur.e.s
-    position: 5
-    data:
-      show_main_description: false
-      show_descriptions: true
-      show_images: true
-      layout: cards
-      pages:
-        - page: /auteures/roland-barthes/
-          slug: /auteures/roland-barthes/
-
 
 blocks:
   - template: chapter
     title: >-
-      Concept
+      
     position: 1
     data:
       layout: no_background
@@ -164,7 +188,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Théorie
+      
     position: 2
     data:
       layout: no_background
@@ -188,7 +212,7 @@ blocks:
 
   - template: chapter
     title: >-
-      Discours
+      
     position: 3
     data:
       layout: no_background
@@ -212,7 +236,7 @@ blocks:
 
   - template: pages
     title: >-
-      Auteur.e.s
+      
     position: 5
     data:
       show_main_description: false
