@@ -44,26 +44,43 @@ contents:
   - kind: heading
     title: >-
       Résumé
-    position: 1
+    position: 0
     level: 2
 
   - kind: heading
     title: >-
       Notions clés
-    position: 2
+    position: 1
     level: 2
 
   - kind: heading
     title: >-
       Ouvrages du même auteur
-    position: 3
+    position: 2
     level: 2
 
   - kind: heading
     title: >-
       Auteurs
-    position: 4
+    position: 3
     level: 2
+  - kind: block
+    template: pages
+    title: >
+      
+    position: 0
+    data:
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      layout: cards
+      pages:
+        - page: /auteures/claude-shannon/
+          slug: /auteures/claude-shannon/
+        - page: /auteures/warren-weaver/
+          slug: /auteures/warren-weaver/
+
+
   - kind: block
     template: call_to_action
     title: >
@@ -89,19 +106,6 @@ contents:
 
           target_blank: false
 
-
-
-  - kind: block
-    template: pages
-    title: >
-      
-    position: 2
-    data:
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
 
 
 
