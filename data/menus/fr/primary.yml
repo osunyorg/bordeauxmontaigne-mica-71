@@ -53,12 +53,12 @@ items:
   target: "/projet/"
   kind: page
   children: []
-- title: Contribuer
-  target: "/contribuer/"
-  kind: page
-  children: []
 - title: Espace contributeurs
   target: https://bordeauxmontaigne.osuny.org/
   kind: url
+  children: []
+- title: Contribuer
+  target: "/contribuer/"
+  kind: page
   children: []
 
