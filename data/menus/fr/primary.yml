@@ -1,6 +1,10 @@
 ---
 title: Primary
 items:
+- title: Discipline SIC
+  target: "/sic/"
+  kind: page
+  children: []
 - title: Bibliographie
   target: ''
   kind: blank
@@ -45,10 +49,6 @@ items:
     target: "/auteures/"
     kind: page
     children: []
-- title: Discipline SIC
-  target: "/sic/"
-  kind: page
-  children: []
 - title: Projet
   target: "/projet/"
   kind: page
