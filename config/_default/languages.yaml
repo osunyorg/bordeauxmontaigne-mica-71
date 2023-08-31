@@ -6,5 +6,7 @@ fr:
   languageCode: fr
   languageName: Français
   permalinks:
+    publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
+    researchers: /equipe/:slug/publications/
