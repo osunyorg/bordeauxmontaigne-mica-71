@@ -6,3 +6,7 @@ params:
   logo:
     header: "/assets/images/biblio71.svg"
     footer: "/assets/images/biblio71.svg"
+  # breadcrumb:
+  #   position: after-hero
+  summary:
+    position: hero
