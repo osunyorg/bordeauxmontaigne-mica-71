@@ -57,7 +57,8 @@ contents:
     title: >-
       L'aventure sémiologique
     position: 0
-    heading_level: 2
+    ranks:
+      self: 2
     data:
       description: >-
         <p>est publié en</p>
@@ -76,13 +77,14 @@ contents:
     title: >-
       Résumé
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -105,7 +107,8 @@ contents:
     title: >-
       Roland Barthes, l'aventure sémiologique
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       testimonials:
         - text: >-
@@ -125,13 +128,14 @@ contents:
     title: >-
       Notions clés
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -154,13 +158,15 @@ contents:
     title: >-
       Ouvrages du même auteur
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: pages
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: true
@@ -178,7 +184,9 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: true
       show_descriptions: false
@@ -196,7 +204,8 @@ contents:
     title: >-
       
     position: 2
-    heading_level: 3
+    ranks:
+      self: false
     data:
       text: >-
         <p>Découvrir comment participer et contribuer à Biblio71.<br></p>
