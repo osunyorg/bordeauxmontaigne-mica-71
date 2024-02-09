@@ -1,8 +1,12 @@
 ---
 name: >
   MICA
+address_name: >
+  
 address: >
   Bâtiment MSHA – 10 Esplanade des Antilles
+address_additional: >
+  
 zipcode: >
   33607
 city: >
