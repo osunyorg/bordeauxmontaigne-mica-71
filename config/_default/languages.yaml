@@ -11,9 +11,9 @@ fr:
   permalinks:
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
-    organizations_categories: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
-    persons_categories: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
     researchers: /equipe/:slug/publications/
   taxonomies:
     administrator: administrators
