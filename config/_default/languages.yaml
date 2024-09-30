@@ -9,7 +9,9 @@ fr:
   params:
     social:
   permalinks:
-    publications: /publications/:year-:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
+    publications: /publications-1/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
