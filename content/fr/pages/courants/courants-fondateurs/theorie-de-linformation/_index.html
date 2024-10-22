@@ -63,20 +63,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 81
+  seconds: 84
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Théorie
-    slug: "theorie"
-    position: 1
-    rank: 2
+    slug: >-
+      theorie
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Une approche mathématique
+    slug: >-
+      une-approche-mathematique
     ranks:
       self: 3
     data:
@@ -96,17 +104,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Concept
-    slug: "concept"
-    position: 2
-    rank: 2
+    slug: >-
+      concept
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Modèle Shannon et Weaver
+    slug: >-
+      modele-shannon-et-weaver
     ranks:
       self: 3
     data:
@@ -129,16 +144,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Discours
-    slug: "discours"
-    position: 3
-    rank: 2
+    slug: >-
+      discours
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -163,6 +185,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -182,7 +206,6 @@ contents:
           slug: "warren-weaver"
           file: "pages/auteures/warren-weaver/_index.html"
           external: false
-
 
 
 

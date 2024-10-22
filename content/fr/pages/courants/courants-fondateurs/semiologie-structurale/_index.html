@@ -63,20 +63,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 43
+  seconds: 46
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Concept
-    slug: "concept"
-    position: 1
-    rank: 2
+    slug: >-
+      concept
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Une méthode d'analyse des systèmes de signes
+    slug: >-
+      une-methode-d-analyse-des-systemes-de-signes
     ranks:
       self: 3
     data:
@@ -96,16 +104,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Théorie
-    slug: "theorie"
-    position: 2
-    rank: 2
+    slug: >-
+      theorie
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -126,16 +141,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Discours
-    slug: "discours"
-    position: 3
-    rank: 2
+    slug: >-
+      discours
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -160,6 +182,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -175,7 +199,6 @@ contents:
           slug: "roland-barthes"
           file: "pages/auteures/roland-barthes/_index.html"
           external: false
-
 
 
 
