@@ -13,10 +13,13 @@ items:
       target: "/courants/courants-fondateurs/"
       kind: page
       children: []
+      file: content/fr/pages/courants/courants-fondateurs/_index.html
     - title: Nouveaux courants
       target: "/courants/nouveaux-courants/"
       kind: page
       children: []
+      file: content/fr/pages/courants/nouveaux-courants/_index.html
+    file: content/fr/pages/courants/_index.html
   - title: Corpus
     target: "/corpus/"
     kind: page
@@ -25,10 +28,13 @@ items:
       target: "/corpus/livres/"
       kind: page
       children: []
+      file: content/fr/pages/corpus/livres/_index.html
     - title: Publications
       target: "/corpus/publications/"
       kind: page
       children: []
+      file: content/fr/pages/corpus/publications/_index.html
+    file: content/fr/pages/corpus/_index.html
   - title: Manifestations
     target: "/manifestations/"
     kind: page
@@ -37,22 +43,28 @@ items:
       target: "/manifestations/conferences/"
       kind: page
       children: []
+      file: content/fr/pages/manifestations/conferences/_index.html
     - title: Revues
       target: "/manifestations/revues-1/"
       kind: page
       children: []
+      file: content/fr/pages/manifestations/revues-1/_index.html
+    file: content/fr/pages/manifestations/_index.html
   - title: Auteur.e.s
     target: "/auteures/"
     kind: page
     children: []
+    file: content/fr/pages/auteures/_index.html
 - title: Discipline SIC
   target: "/sic/"
   kind: page
   children: []
+  file: content/fr/pages/sic/_index.html
 - title: Projet
   target: "/projet/"
   kind: page
   children: []
+  file: content/fr/pages/projet/_index.html
 - title: Espace contributeurs
   target: https://bordeauxmontaigne.osuny.org/
   kind: url
@@ -61,4 +73,5 @@ items:
   target: "/contribuer/"
   kind: page
   children: []
+  file: content/fr/pages/contribuer/_index.html
 
