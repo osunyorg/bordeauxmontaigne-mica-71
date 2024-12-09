@@ -1,21 +1,11 @@
 ---
 name: >-
   MICA
-address_name: >-
-  
-address: >-
-  Bâtiment MSHA – 10 Esplanade des Antilles
-address_additional: >-
-  
-zipcode: >-
-  33607
-city: >-
-  PESSAC cedex
-country: >-
-  France
 contact_details:
   postal_address:
     data:
+      address_name: >-
+        
       address: >-
         Bâtiment MSHA – 10 Esplanade des Antilles
       address_additional: >-
@@ -24,17 +14,16 @@ contact_details:
         33607
       city: >-
         PESSAC cedex
-      country: >-
+      country:
         name: >-
           France
         alpha2: >-
           FR
         alpha3: >-
           FRA
-      country: >-
-        France
     text: >-
       Bâtiment MSHA – 10 Esplanade des Antilles 33607 PESSAC cedex FRANCE
     html: >-
       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Bâtiment MSHA – 10 Esplanade des Antilles</span> <span itemprop="postalCode">33607</span> <span itemprop="addressLocality">PESSAC cedex</span> <span itemprop="addressCountry">FRANCE</span></address>
+
 ---
