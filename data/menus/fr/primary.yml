@@ -13,12 +13,15 @@ items:
       target: "/courants/courants-fondateurs/"
       kind: page
       children: []
+      path: "/pages/courants/courants-fondateurs"
       file: content/fr/pages/courants/courants-fondateurs/_index.html
     - title: Nouveaux courants
       target: "/courants/nouveaux-courants/"
       kind: page
       children: []
+      path: "/pages/courants/nouveaux-courants"
       file: content/fr/pages/courants/nouveaux-courants/_index.html
+    path: "/pages/courants"
     file: content/fr/pages/courants/_index.html
   - title: Corpus
     target: "/corpus/"
@@ -28,12 +31,15 @@ items:
       target: "/corpus/livres/"
       kind: page
       children: []
+      path: "/pages/corpus/livres"
       file: content/fr/pages/corpus/livres/_index.html
     - title: Publications
       target: "/corpus/publications/"
       kind: page
       children: []
+      path: "/pages/corpus/publications"
       file: content/fr/pages/corpus/publications/_index.html
+    path: "/pages/corpus"
     file: content/fr/pages/corpus/_index.html
   - title: Manifestations
     target: "/manifestations/"
@@ -43,27 +49,33 @@ items:
       target: "/manifestations/conferences/"
       kind: page
       children: []
+      path: "/pages/manifestations/conferences"
       file: content/fr/pages/manifestations/conferences/_index.html
     - title: Revues
       target: "/manifestations/revues-1/"
       kind: page
       children: []
+      path: "/pages/manifestations/revues-1"
       file: content/fr/pages/manifestations/revues-1/_index.html
+    path: "/pages/manifestations"
     file: content/fr/pages/manifestations/_index.html
   - title: Auteur.e.s
     target: "/auteures/"
     kind: page
     children: []
+    path: "/pages/auteures"
     file: content/fr/pages/auteures/_index.html
 - title: Discipline SIC
   target: "/sic/"
   kind: page
   children: []
+  path: "/pages/sic"
   file: content/fr/pages/sic/_index.html
 - title: Projet
   target: "/projet/"
   kind: page
   children: []
+  path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Espace contributeurs
   target: https://bordeauxmontaigne.osuny.org/
@@ -73,5 +85,6 @@ items:
   target: "/contribuer/"
   kind: page
   children: []
+  path: "/pages/contribuer"
   file: content/fr/pages/contribuer/_index.html
 
