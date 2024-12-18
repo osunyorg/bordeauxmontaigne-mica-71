@@ -4,20 +4,24 @@ items:
 - title: Bibliographie
   target: ''
   kind: blank
+  new_tab: false
   children:
   - title: Courants
     target: "/courants/"
     kind: page
+    new_tab: false
     children:
     - title: Courants fondateurs
       target: "/courants/courants-fondateurs/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/courants/courants-fondateurs"
       file: content/fr/pages/courants/courants-fondateurs/_index.html
     - title: Nouveaux courants
       target: "/courants/nouveaux-courants/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/courants/nouveaux-courants"
       file: content/fr/pages/courants/nouveaux-courants/_index.html
@@ -26,16 +30,19 @@ items:
   - title: Corpus
     target: "/corpus/"
     kind: page
+    new_tab: false
     children:
     - title: Livres
       target: "/corpus/livres/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/corpus/livres"
       file: content/fr/pages/corpus/livres/_index.html
     - title: Publications
       target: "/corpus/publications/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/corpus/publications"
       file: content/fr/pages/corpus/publications/_index.html
@@ -44,16 +51,19 @@ items:
   - title: Manifestations
     target: "/manifestations/"
     kind: page
+    new_tab: false
     children:
     - title: Conférences
       target: "/manifestations/conferences/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/manifestations/conferences"
       file: content/fr/pages/manifestations/conferences/_index.html
     - title: Revues
       target: "/manifestations/revues-1/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/manifestations/revues-1"
       file: content/fr/pages/manifestations/revues-1/_index.html
@@ -62,28 +72,33 @@ items:
   - title: Auteur.e.s
     target: "/auteures/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/auteures"
     file: content/fr/pages/auteures/_index.html
 - title: Discipline SIC
   target: "/sic/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/sic"
   file: content/fr/pages/sic/_index.html
 - title: Projet
   target: "/projet/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Espace contributeurs
   target: https://bordeauxmontaigne.osuny.org/
   kind: url
+  new_tab: true
   children: []
 - title: Contribuer
   target: "/contribuer/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/contribuer"
   file: content/fr/pages/contribuer/_index.html
