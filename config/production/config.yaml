@@ -2,6 +2,11 @@
 
 baseURL: https://bordeauxmontaigne-mica-71.netlify.app
 
+## OSUNY
+osuny:
+  website:
+    id: ac63167b-509b-427f-9ce2-dd7c5990bc1a
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
