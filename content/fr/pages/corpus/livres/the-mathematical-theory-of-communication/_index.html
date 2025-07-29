@@ -26,6 +26,7 @@ meta:
     published_at: 2023-08-23T14:59:19+02:00
 search:
   id: "9a87ae51-7dd3-4d24-9c2f-2442e324f651"
+  about_id: "2169bced-f716-45df-8d66-83ee4ff8345d"
   url: "/corpus/livres/the-mathematical-theory-of-communication/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -54,6 +55,7 @@ design:
   toc:
     present: true
     offcanvas: false
+
 
 position: 5
 weight: 5
@@ -157,12 +159,14 @@ contents:
     data:
       options:
         image: false
+        categories: false
         main_summary: false
         summary: false
 
       layout: grid
       pages:
 
+      quantity: 0
 
 
   - kind: block
@@ -198,6 +202,7 @@ contents:
     data:
       options:
         image: true
+        categories: false
         main_summary: false
         summary: true
 
@@ -207,11 +212,16 @@ contents:
           path: "/pages/auteures/claude-shannon"
           slug: "claude-shannon"
           file: "content/fr/pages/auteures/claude-shannon/_index.html"
+          name: >-
+            Claude Shannon
         - permalink: "/auteures/warren-weaver/"
           path: "/pages/auteures/warren-weaver"
           slug: "warren-weaver"
           file: "content/fr/pages/auteures/warren-weaver/_index.html"
+          name: >-
+            Warren Weaver
 
+      quantity: 2
 
 
   - kind: block
