@@ -1,12 +1,14 @@
 @include media-breakpoint-up(xl)
-    main > .blocks .block-pages--grid .grid, 
-    body.full-width .block-pages--grid .grid
+    main > .blocks .block-pages--grid .pages, 
+    body.full-width .block-pages--grid .pages
         grid-template-columns: repeat(4, 1fr)
     
-.block-pages .grid article .media img, 
-.block-pages .cards article .media img
-    aspect-ratio: auto
-    width: 100%
+.block-pages--grid,
+.block-pages--cards
+    .pages 
+        article .media img
+            aspect-ratio: auto
+            width: 100%
 
 .block-pages--grid article .media img
     @include in-page-with-sidebar
