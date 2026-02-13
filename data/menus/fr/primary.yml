@@ -2,104 +2,150 @@
 title: Primary
 items:
 - title: Bibliographie
+  slug: bibliographie
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Courants
+    slug: courants
     target: "/courants/"
     kind: page
     new_tab: false
     children:
     - title: Courants fondateurs
+      slug: courants-fondateurs
       target: "/courants/courants-fondateurs/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/courants/courants-fondateurs"
       file: content/fr/pages/courants/courants-fondateurs/_index.html
     - title: Nouveaux courants
+      slug: nouveaux-courants
       target: "/courants/nouveaux-courants/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/courants/nouveaux-courants"
       file: content/fr/pages/courants/nouveaux-courants/_index.html
+    descendants_targets:
+    - "/courants/courants-fondateurs/"
+    - "/courants/nouveaux-courants/"
     path: "/pages/courants"
     file: content/fr/pages/courants/_index.html
   - title: Corpus
+    slug: corpus
     target: "/corpus/"
     kind: page
     new_tab: false
     children:
     - title: Livres
+      slug: livres
       target: "/corpus/livres/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/corpus/livres"
       file: content/fr/pages/corpus/livres/_index.html
     - title: Publications
+      slug: publications
       target: "/corpus/publications/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/corpus/publications"
       file: content/fr/pages/corpus/publications/_index.html
+    descendants_targets:
+    - "/corpus/livres/"
+    - "/corpus/publications/"
     path: "/pages/corpus"
     file: content/fr/pages/corpus/_index.html
   - title: Manifestations
+    slug: manifestations
     target: "/manifestations/"
     kind: page
     new_tab: false
     children:
     - title: Conférences
+      slug: conferences
       target: "/manifestations/conferences/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/manifestations/conferences"
       file: content/fr/pages/manifestations/conferences/_index.html
     - title: Revues
+      slug: revues
       target: "/manifestations/revues-1/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/manifestations/revues-1"
       file: content/fr/pages/manifestations/revues-1/_index.html
+    descendants_targets:
+    - "/manifestations/conferences/"
+    - "/manifestations/revues-1/"
     path: "/pages/manifestations"
     file: content/fr/pages/manifestations/_index.html
   - title: Auteur.e.s
+    slug: auteur-e-s
     target: "/auteures/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/auteures"
     file: content/fr/pages/auteures/_index.html
+  descendants_targets:
+  - "/auteures/"
+  - "/corpus/"
+  - "/corpus/livres/"
+  - "/corpus/publications/"
+  - "/courants/"
+  - "/courants/courants-fondateurs/"
+  - "/courants/nouveaux-courants/"
+  - "/manifestations/"
+  - "/manifestations/conferences/"
+  - "/manifestations/revues-1/"
 - title: Discipline SIC
+  slug: discipline-sic
   target: "/sic/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/sic"
   file: content/fr/pages/sic/_index.html
 - title: Projet
+  slug: projet
   target: "/projet/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/projet"
   file: content/fr/pages/projet/_index.html
 - title: Espace contributeurs
+  slug: espace-contributeurs
   target: https://bordeauxmontaigne.osuny.org/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Contribuer
+  slug: contribuer
   target: "/contribuer/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/contribuer"
   file: content/fr/pages/contribuer/_index.html
 
